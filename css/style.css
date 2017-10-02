@@ -104,4 +104,24 @@ section {
   .pricing table td:first-child {
     background: #f0f0f0; }
 
+footer {
+  width: 100%;
+  padding: 2em 10em;
+  background: #000; }
+  footer:before, footer:after {
+    content: "";
+    display: table; }
+  footer:after {
+    clear: both; }
+  footer .logo {
+    float: none;
+    border-bottom: 1px solid #ff3720; }
+  footer address {
+    float: left;
+    padding: 15px;
+    font-style: italic; }
+  footer .map {
+    padding: 15px;
+    float: right; }
+
 /*# sourceMappingURL=style.css.map */
