@@ -75,16 +75,20 @@ section {
       width: 80%; }
     .catalog .column h4 {
       margin: 0.5em 0; }
-    .catalog .column button {
-      padding: 0.5em 1em;
-      background: #ff3720;
-      text-transform: uppercase;
-      color: #fff;
-      border: none;
-      cursor: pointer; }
-      .catalog .column button:hover {
-        background: #000; }
 
+button {
+  padding: 0.5em 1em;
+  background: #ff3720;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  cursor: pointer; }
+  button:hover {
+    background: #000; }
+
+.pricing button {
+  margin: 0 auto;
+  display: none; }
 .pricing table {
   width: 70%;
   margin: 0 auto;
@@ -141,5 +145,28 @@ footer {
   footer address, footer .map {
     width: 100%;
     text-align: center; } }
+@media screen and (max-width: 700px) {
+  header {
+    background: #000;
+    padding: 0;
+    height: auto;
+    padding: 0 0 3em; }
+
+  nav ul {
+    width: 100%; }
+    nav ul li {
+      width: 100%;
+      text-align: center; }
+
+  h1 {
+    margin: 2em auto 0; }
+
+  .catalog .column {
+    width: 100%; }
+
+  .pricing table {
+    display: none; }
+  .pricing button {
+    display: block; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -92,23 +92,28 @@ section{
 		h4{
 			margin: 0.5em 0;
 		}
-
-		button{
-			padding: 0.5em 1em;
-			background: $main_red;
-			text-transform: uppercase;
-			color: #fff;
-			border: none;
-			cursor: pointer;
-			
-			&:hover{
-			 	background: #000;
-			 }
-		}
 	}	
 }
 
+button{
+	padding: 0.5em 1em;
+	background: $main_red;
+	text-transform: uppercase;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+			
+	&:hover{
+		background: #000;
+	}
+}
+
 .pricing{
+
+	button{
+		margin: 0 auto;
+		display: none;
+	}
 
 	table{
 		width: 70%;
@@ -191,4 +196,47 @@ footer{
 			text-align: center;
 		}
 	}
+}
+
+
+@include mobile {
+	
+	header{
+		background: #000;
+		padding: 0;
+		height: auto;
+		padding: 0 0 3em;
+	}	
+
+	nav{
+		ul{
+			width: 100%;
+		
+			li{
+				width: 100%;
+				text-align: center;
+			}
+		}
+	}
+
+	h1{
+		margin: 2em auto 0;
+	}
+
+	.catalog{		
+		
+		.column{
+			width: 100%;
+		}
+	}
+
+	.pricing{
+		table {
+			display: none;
+		}
+		button{
+			display: block;
+		}
+	}
+
 }
