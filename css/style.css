@@ -124,4 +124,22 @@ footer {
     padding: 15px;
     float: right; }
 
+@media screen and (max-width: 1000px) {
+  header, section {
+    padding: 2em 1em; }
+
+  h1 {
+    width: 100%; }
+
+  .catalog {
+    white-space: normal; }
+    .catalog .column {
+      width: 50%;
+      margin-bottom: 2em;
+      margin-left: -4px; }
+
+  footer address, footer .map {
+    width: 100%;
+    text-align: center; } }
+
 /*# sourceMappingURL=style.css.map */

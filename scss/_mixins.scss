@@ -17,3 +17,17 @@
 		clear: both;
 	}
 }
+
+@mixin tablet{
+
+	@media screen and (max-width: $veliki_break){
+		@content;
+	}
+}
+
+@mixin mobile{
+
+	@media screen and (max-width: $mali_break){
+		@content;
+	}
+}

@@ -165,3 +165,30 @@ footer{
 	}
 }
 
+@include tablet {
+
+	header, section{
+		padding: 2em 1em;
+	}
+
+	h1{
+		width: 100%;
+	}
+
+	.catalog{		
+		white-space: normal;
+		
+		.column{
+			width: 50%;
+			margin-bottom: 2em;
+			margin-left: -4px;
+		}
+	}
+
+	footer{
+		address, .map{
+			width: 100%;
+			text-align: center;
+		}
+	}
+}
