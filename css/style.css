@@ -55,4 +55,33 @@ h1 {
   width: 70%;
   margin: 7.5em auto 0; }
 
+section h3 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1em; }
+
+section {
+  padding: 3em 10em; }
+
+.catalog {
+  white-space: nowrap; }
+  .catalog .column {
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    white-space: normal; }
+    .catalog .column img {
+      width: 80%; }
+    .catalog .column h4 {
+      margin: 0.5em 0; }
+    .catalog .column button {
+      padding: 0.5em 1em;
+      background: #ff3720;
+      text-transform: uppercase;
+      color: #fff;
+      border: none;
+      cursor: pointer; }
+      .catalog .column button:hover {
+        background: #000; }
+
 /*# sourceMappingURL=style.css.map */
