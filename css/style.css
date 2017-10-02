@@ -64,7 +64,8 @@ section {
   padding: 3em 10em; }
 
 .catalog {
-  white-space: nowrap; }
+  white-space: nowrap;
+  background: #f0f0f0; }
   .catalog .column {
     width: 25%;
     display: inline-block;
@@ -83,5 +84,24 @@ section {
       cursor: pointer; }
       .catalog .column button:hover {
         background: #000; }
+
+.pricing table {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  border-collapse: collapse; }
+  .pricing table td, .pricing table th {
+    padding: 10px; }
+  .pricing table th {
+    background: #ff3720;
+    color: #fff; }
+    .pricing table th:first-child {
+      background: #e42b15; }
+  .pricing table tr {
+    border-bottom: 1px solid #797979; }
+    .pricing table tr:hover {
+      background: #f0f0f0; }
+  .pricing table td:first-child {
+    background: #f0f0f0; }
 
 /*# sourceMappingURL=style.css.map */
